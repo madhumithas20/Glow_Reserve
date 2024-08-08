@@ -1,0 +1,82 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px; /* Adjust padding as needed */
+    background-color: #ed35a3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    height: 40px; /* Adjust logo size as needed */
+}
+
+.header-center {
+    display: flex;
+    flex: 2; /* Adjust this value to control the space taken by the center items */
+    justify-content: center;
+    position: relative; /* Ensure relative positioning for the centering */
+    margin-left: -40px; /* Increased this value to move the center content further to the right */
+}
+
+.header-center nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-center nav ul li {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-center nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-center nav ul li a:hover {
+    color: #007BFF;
+}
+
+.header-right {
+    display: flex;
+    flex: 3; /* Adjust this value to control the space taken by the right items */
+    justify-content: flex-end;
+}
+
+.header-right nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-right nav ul li {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-right nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-right nav ul li a:hover {
+    color: #007BFF;
+}

@@ -1,0 +1,47 @@
+.products-container {
+    padding-top: 60px; 
+    background-color: #ffffff; /* Changed to hex color code */
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .search-input { /* Updated to match the class in Products.jsx */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  .category-select { /* Added to match the class in Products.jsx */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card { /* Ensure this is included in ProductCard.css */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as needed */
+    text-align: center; /* Center content */
+  }
+  
+  .product-card img { /* Ensure images are properly sized */
+    width: 100%; /* Full width of the card */
+    height: auto; /* Maintain aspect ratio */
+  }
